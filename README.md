@@ -40,9 +40,18 @@
 
 ## 🌐 Connect with Me
 
-[![GitHub](https://img.icons8.com/ios-filled/50/ffffff/github.png)](https://github.com/ibtesamnaveed)  
-[![LinkedIn](https://img.icons8.com/ios-filled/50/ffffff/linkedin.png)](https://www.linkedin.com/in/ibtesam-naveed-307b9a335/)  
-[![Email](https://img.icons8.com/ios-filled/50/ffffff/email-open.png)](mailto:ibtesamnaveed770@gmail.com)
+### Let's Connect! 👇  
+<p align="center">
+  <a href="https://github.com/ibtesamnaveed" target="_blank">
+    <img src="https://img.icons8.com/ios-filled/50/ffffff/github.png" alt="GitHub" width="50" style="margin-right: 10px;"/>
+  </a>
+  <a href="https://www.linkedin.com/in/ibtesam-naveed-307b9a335/" target="_blank">
+    <img src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png" alt="LinkedIn" width="50" style="margin-right: 10px;"/>
+  </a>
+  <a href="mailto:ibtesamnaveed770@gmail.com" target="_blank">
+    <img src="https://img.icons8.com/ios-filled/50/ffffff/email-open.png" alt="Email" width="50" style="margin-right: 10px;"/>
+  </a>
+</p>
 
 ---
 
