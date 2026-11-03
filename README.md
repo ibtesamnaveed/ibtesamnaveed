@@ -1,12 +1,3 @@
-<!-- ============================================================
-  SETUP
-  1. Repo must be PUBLIC and named exactly: ibtesamnaveed
-  2. Put this file at the repo root as README.md
-  3. Put snake.yml at .github/workflows/snake.yml
-  4. Repo > Actions tab > "Generate Snake" > Run workflow (once)
-     The workflow creates an "output" branch that holds the snake.
-============================================================ -->
-
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Ibtesam%20Naveed&fontSize=60&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=Software%20Engineer%20%C2%B7%20Full-Stack%20Developer%20%C2%B7%20AI-Powered%20Products&descSize=17&descAlignY=60" width="100%" alt="header" />
