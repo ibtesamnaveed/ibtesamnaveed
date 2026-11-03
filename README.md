@@ -1,12 +1,12 @@
 <!-- ============================================================
-  HOW TO USE
-  1. On GitHub, create a PUBLIC repo named exactly: ibtesamnaveed
-     (same as your username) and tick "Add a README".
-  2. Replace its README.md with this file's content.
-  3. Optional: add the snake animation workflow (see bottom).
+  SETUP
+  1. Repo must be PUBLIC and named exactly: ibtesamnaveed
+  2. Put this file at the repo root as README.md
+  3. Put snake.yml at .github/workflows/snake.yml
+  4. Repo > Actions tab > "Generate Snake" > Run workflow (once)
+     The workflow creates an "output" branch that holds the snake.
 ============================================================ -->
 
-<!-- ───────────── ANIMATED HEADER ───────────── -->
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Ibtesam%20Naveed&fontSize=60&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=Software%20Engineer%20%C2%B7%20Full-Stack%20Developer%20%C2%B7%20AI-Powered%20Products&descSize=17&descAlignY=60" width="100%" alt="header" />
@@ -30,22 +30,40 @@
 
 ---
 
-## 👨‍💻 About Me
+## ✨ About Me
 
-```ts
-const ibtesam = {
-  role: "Software Engineer · Full-Stack Developer",
-  currently: "Junior Web Developer @ Reckap Solutions (New Mexico, USA · Remote)",
-  studying: "BS Software Engineering @ The University of Faisalabad",
-  location: "Faisalabad, Pakistan 🇵🇰",
-  languages: ["Urdu (Native)", "English (Professional)"],
-  focus: ["Scalable web apps", "Clean UI/UX", "AI-powered products"],
-  certified: "Google AI Essentials",
-  funFact: "I build things that work — and look like they mean it.",
-};
-```
+<div align="center">
 
-I turn business problems into digital products — responsive web apps, full-stack platforms, and AI-integrated solutions. I care about **code quality**, **user experience**, and **shipping things that matter**, all while being a full-time engineering student.
+> ### *"I build things that work — and look like they mean it."*
+
+</div>
+
+I'm a **Full-Stack Developer** who turns business problems into polished digital products: responsive web apps, full-stack platforms, and AI-integrated solutions. I care about **clean code**, **sharp UX**, and **shipping things that matter**, all while studying engineering full-time.
+
+<table align="center">
+  <tr>
+    <td align="center" width="25%">
+      <h3>💼</h3>
+      <b>Currently</b><br/>
+      <sub>Junior Web Developer<br/>Reckap Solutions<br/>New Mexico, USA · Remote</sub>
+    </td>
+    <td align="center" width="25%">
+      <h3>🎓</h3>
+      <b>Studying</b><br/>
+      <sub>BS Software Engineering<br/>The University of Faisalabad<br/>2024 – 2028</sub>
+    </td>
+    <td align="center" width="25%">
+      <h3>🎯</h3>
+      <b>Focus</b><br/>
+      <sub>Scalable web apps<br/>Clean UI/UX<br/>AI-powered products</sub>
+    </td>
+    <td align="center" width="25%">
+      <h3>🌍</h3>
+      <b>Based in</b><br/>
+      <sub>Faisalabad, Pakistan<br/>Urdu · English<br/>Google AI Essentials</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -108,7 +126,6 @@ I turn business problems into digital products — responsive web apps, full-sta
 - 🤖 Exploring **AI-powered applications & automation**
 - 🌱 Leveling up in system design, TypeScript, and full-stack architecture
 - 🌍 Growing toward freelance and international remote opportunities
-- 🎓 Studying **Software Engineering** at The University of Faisalabad
 
 ---
 
@@ -121,7 +138,13 @@ I turn business problems into digital products — responsive web apps, full-sta
 ## 🐍 Contribution Snake
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/ibtesamnaveed/ibtesamnaveed/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ibtesamnaveed/ibtesamnaveed/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ibtesamnaveed/ibtesamnaveed/output/github-contribution-grid-snake.svg" />
+  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/ibtesamnaveed/ibtesamnaveed/output/github-contribution-grid-snake-dark.svg" />
+</picture>
+
 </div>
 
 ---
@@ -141,32 +164,3 @@ I turn business problems into digital products — responsive web apps, full-sta
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%" alt="footer" />
 
 </div>
-
-<!-- ============================================================
-  OPTIONAL: SNAKE ANIMATION WORKFLOW
-  Create .github/workflows/snake.yml in the same repo:
-
-  name: Generate Snake
-  on:
-    schedule: [{ cron: "0 0 * * *" }]
-    workflow_dispatch:
-  permissions:
-    contents: write
-  jobs:
-    generate:
-      runs-on: ubuntu-latest
-      steps:
-        - uses: Platane/snk/svg-only@v3
-          with:
-            github_user_name: ${{ github.repository_owner }}
-            outputs: dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-        - uses: crazy-max/ghaction-github-pages@v3.1.0
-          with:
-            target_branch: output
-            build_dir: dist
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-  Run it once from the Actions tab so the "output" branch exists.
-  If you skip this, delete the "Contribution Snake" section above.
-============================================================ -->
